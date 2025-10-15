@@ -7,7 +7,7 @@ int reverseDigits(int n)
     while (n > 0)
     {
         int lastdigit = n % 10; // will extract the last digit
-        revNum = revNum * 10 + lastdigit;
+        revNum = (revNum * 10) + lastdigit;
         n = n / 10;
     }
     return revNum;
