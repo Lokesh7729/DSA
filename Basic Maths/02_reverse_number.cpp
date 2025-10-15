@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// reverse number
 int reverseDigits(int n)
 {
     int revNum = 0;
