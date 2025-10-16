@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-// reverse number
-int reverseDigits(int n)
+
+int checkPalindrome(int n)
 {
     int revNum = 0;
     while (n > 0)
@@ -17,7 +17,7 @@ int main()
 {
     int n = 1221;
     int dup=n;
-    int revNum= reverseDigits(n);
+    int revNum= checkPalindrome(n);
     if(dup==revNum) cout<<"true";
     else cout<<"false";
     return 0;
